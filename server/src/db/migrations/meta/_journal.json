@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1792645178905,
+      "tag": "0000_light_sandman",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1792646153687,
+      "tag": "0001_last_bloodstrike",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792670898155,
+      "tag": "0002_blue_baron_strucker",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1792672224330,
+      "tag": "0003_flat_pandemic",
+      "breakpoints": true
+    }
+  ]
+}

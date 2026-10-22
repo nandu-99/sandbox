@@ -1,0 +1,31 @@
+{
+  "name": "developer-sandbox-bootstrapper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:api": "npm --prefix server run dev",
+    "build": "next build --webpack",
+    "build:api": "npm --prefix server run build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "typecheck:api": "npm --prefix server run typecheck"
+  },
+  "dependencies": {
+    "geist": "^1.8.2",
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5.9.0"
+  }
+}
